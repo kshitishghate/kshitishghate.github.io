@@ -21,7 +21,7 @@ My name is Kshitish Ghate. My research interests lie in understanding how social
 
 I am currently a final year student at BITS Pilani pursuing a Bachelor's in Computer Science and a Master's in Economics. 
 
-<b>I am currently applying for Fall'23 Ph.D. positions in the field of AI fairness and computational social science!</b>
+<b>I am applying for Fall'23 Ph.D. positions in the field of AI fairness and computational social science!</b>
 
 <!-- Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically. -->
 
