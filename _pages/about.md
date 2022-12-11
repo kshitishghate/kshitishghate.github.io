@@ -16,7 +16,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi there!
+Hello there!
 
 I am Kshitish Ghate. My research interests lie in understanding how social biases are learned by artificial intelligence (AI) and algorithmic systems, and the consequences of such learned biases on society. I am interested in exploring how AI systems can be improved to deliver trustworthy and ethical decisions.
 
