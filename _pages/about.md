@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='https://www.bits-pilani.ac.in/'>BITS Pilani</a>. Looking for Fall'23 PhD Positions.
 
 profile:
   align: right
