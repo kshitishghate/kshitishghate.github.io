@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2022-1-1
 inline: true
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+I will be working as a Teaching Assistant for the course <b> Applied Econometrics</b>!
