@@ -20,7 +20,7 @@ Hello there!
 
 I am Kshitish Ghate. My research interests lie in understanding how social biases are learned by artificial intelligence (AI) and algorithmic systems, and the consequences of such learned biases on society. I am interested in exploring how AI systems can be improved to deliver trustworthy and ethical decisions.
 
-I am currently a final year student at BITS Pilani pursuing a Bachelor's in Computer Science and a Master's in Economics. 
+I am currently a first year Graduate Student at the <a href='https://lti.cs.cmu.edu/'>Language Technologies Institute at Carnegie Mellon</a>, pursuing a Master's degree in Intelligent Information Systems. Previously, I graduated from <a href='https://www.bits-pilani.ac.in/'>BITS Pilani</a>, India, where I completed a Bachelor's in Computer Science and Master's in Economics.
 
 
 
