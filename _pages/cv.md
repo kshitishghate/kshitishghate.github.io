@@ -4,5 +4,5 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 4
-cv_pdf: Kshitish_Ghate_Resume_2023.pdf
+cv_pdf: Kshitish_CV_2025.pdf
 ---

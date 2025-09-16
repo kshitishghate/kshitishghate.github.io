@@ -3,14 +3,73 @@
 
 @string{aps = {American Physical Society,}}
 
-@misc{ghate_charlesworth_caliskan, 
- abbr={Under Review},
- title={Bias In, Bias Out: Propagation of Intrinsic Intersectional Social Group Bias to Extrinsic Zero-Shot Tasks in Vision-Language Models}, 
- publisher={Under Review}, 
- author={Ghate, Kshitish, Charlesworth, Tessa E. S. and Caliskan, Aylin},
- year={in prep},
- selected={true}
- } 
+@inproceedings{ghate-etal-2025-biases,
+    title = "Biases Propagate in Encoder-based Vision-Language Models: A Systematic Analysis From Intrinsic Measures to Zero-shot Retrieval Outcomes",
+    author = "Ghate, Kshitish  and
+      Charlesworth, Tessa  and
+      Diab, Mona T.  and
+      Caliskan, Aylin",
+    editor = "Che, Wanxiang  and
+      Nabende, Joyce  and
+      Shutova, Ekaterina  and
+      Pilehvar, Mohammad Taher",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2025",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.findings-acl.955/",
+    doi = "10.18653/v1/2025.findings-acl.955",
+    pages = "18562--18580",
+    ISBN = "979-8-89176-256-5",
+    abstract = "To build fair AI systems we need to understand how social-group biases intrinsic to foundational encoder-based vision-language models (VLMs) manifest in biases in downstream tasks. In this study, we demonstrate that intrinsic biases in VLM representations systematically ``carry over'' or propagate into zero-shot retrieval tasks, revealing how deeply rooted biases shape a model{'}s outputs. We introduce a controlled framework to measure this propagation by correlating (a) intrinsic measures of bias in the representational space with (b) extrinsic measures of bias in zero-shot text-to-image (TTI) and image-to-text (ITT) retrieval. Results show substantial correlations between intrinsic and extrinsic bias, with an average $\rho$ = 0.83 $\pm$ 0.10. This pattern is consistent across 114 analyses, both retrieval directions, six social groups, and three distinct VLMs. Notably, we find that larger/better-performing models exhibit greater bias propagation, a finding that raises concerns given the trend towards increasingly complex AI models. Our framework introduces baseline evaluation tasks to measure the propagation of group and valence signals. Investigations reveal that underrepresented groups experience less robust propagation, further skewing their model-related outcomes."
+}
+
+@inproceedings{ghate-etal-2025-intrinsic,
+    title = "Intrinsic Bias is Predicted by Pretraining Data and Correlates with Downstream Performance in Vision-Language Encoders",
+    author = "Ghate, Kshitish  and
+      Slaughter, Isaac  and
+      Wilson, Kyra  and
+      Diab, Mona T.  and
+      Caliskan, Aylin",
+    editor = "Chiruzzo, Luis  and
+      Ritter, Alan  and
+      Wang, Lu",
+    booktitle = "Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+    month = apr,
+    year = "2025",
+    address = "Albuquerque, New Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.naacl-long.148/",
+    doi = "10.18653/v1/2025.naacl-long.148",
+    pages = "2899--2915",
+    ISBN = "979-8-89176-189-6",
+    abstract = "While recent work has found that vision-language models trained under the Contrastive Language Image Pre-training (CLIP) framework contain intrinsic social biases, the extent to which different upstream pre-training features of the framework relate to these biases, and hence how intrinsic bias and downstream performance are connected has been unclear. In this work, we present the largest comprehensive analysis to-date of how the upstream pre-training factors and downstream performance of CLIP models relate to their intrinsic biases. Studying 131 unique CLIP models, trained on 26 datasets, using 55 architectures, and in a variety of sizes, we evaluate bias in each model using 26 well-established unimodal and cross-modal principled Embedding Association Tests. We find that the choice of pre-training dataset is the most significant upstream predictor of bias, whereas architectural variations have minimal impact. Additionally, datasets curated using sophisticated filtering techniques aimed at enhancing downstream model performance tend to be associated with higher levels of intrinsic bias. Finally, we observe that intrinsic bias is often significantly correlated with downstream performance ($0.3 \leq r \leq 0.8$), suggesting that models optimized for performance inadvertently learn to amplify representational biases. Comparisons between unimodal and cross-modal association tests reveal that social group bias depends heavily on the modality. Our findings imply that more sophisticated strategies are needed to address intrinsic model bias for vision-language models across the entire model development pipeline."
+}
+
+@inproceedings{cheng-etal-2025-realm,
+    title = "{REALM}: A Dataset of Real-World {LLM} Use Cases",
+    author = "Cheng, Jingwen  and
+      Ghate, Kshitish  and
+      Hua, Wenyue  and
+      Wang, William Yang  and
+      Shen, Hong  and
+      Fang, Fei",
+    editor = "Che, Wanxiang  and
+      Nabende, Joyce  and
+      Shutova, Ekaterina  and
+      Pilehvar, Mohammad Taher",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2025",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.findings-acl.437/",
+    doi = "10.18653/v1/2025.findings-acl.437",
+    pages = "8331--8341",
+    ISBN = "979-8-89176-256-5",
+    abstract = "Large Language Models (LLMs), such as the GPT series, have driven significant industrial applications, leading to economic and societal transformations. However, a comprehensive understanding of their real-world applications remains limited.To address this, we introduce **REALM**, a dataset of over 94,000 LLM use cases collected from Reddit and news articles. **REALM** captures two key dimensions: the diverse applications of LLMs and the demographics of their users. It categorizes LLM applications and explores how users' occupations relate to the types of applications they use.By integrating real-world data, **REALM** offers insights into LLM adoption across different domains, providing a foundation for future research on their evolving societal roles. An interactive dashboard ([https://realm-e7682.web.app/](https://realm-e7682.web.app/)) is provided for easy exploration of the dataset."
+}
 
  @inproceedings{ghate2024evaluating,
   abbr={GeBNLP},
@@ -33,6 +92,15 @@
   year={2024},
   publisher={Oxford University Press US},
   selected={true}}
+}
+
+@inproceedings{shaikh2024self,
+  title={Self-SLAM: A Self-supervised Learning Based Annotation Method to Reduce Labeling Overhead},
+  author={Shaikh, Alfiya M and Nambiar, Hrithik and Ghate, Kshitish and Banik, Swarnali and Sen, Sougata and Ghosh, Surjya and Raychoudhury, Vaskar and Ganguly, Niloy and Saha, Snehanshu},
+  booktitle={Joint European Conference on Machine Learning and Knowledge Discovery in Databases},
+  pages={123--140},
+  year={2024},
+  organization={Springer}
 }
 
 
