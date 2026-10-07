@@ -248,6 +248,18 @@ blockquote {
   }
 }
 
+// Social (top, under the subtitle)
+
+.social.social-top {
+  text-align: left;
+  .contact-icons {
+    font-size: 2rem;
+    a {
+      margin-right: 0.5rem;
+    }
+  }
+}
+
 // Social (bottom)
 
 .social {
